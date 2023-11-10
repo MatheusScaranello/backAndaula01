@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "description": "Projeto aula BACK-END SENAI",
   "main": "/server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [
     "JavaScript",
     "SENAI",
     "NODEJS"
   ],
-  "author": "Matheus Scaranello",
-  "license": "ISC"
+  "author": "Matheus Menezes Scaranello",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
